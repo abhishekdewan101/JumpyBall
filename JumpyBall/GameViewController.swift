@@ -27,6 +27,7 @@ extension SKNode {
 
 class GameViewController: UIViewController {
 
+    //first method to get loaded when inheriting UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,6 +35,7 @@ class GameViewController: UIViewController {
             // Configure the view.
             let skView = self.view as SKView
             skView.showsFPS = true
+            scene.size = skView.bounds.size;
             skView.showsNodeCount = true
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */

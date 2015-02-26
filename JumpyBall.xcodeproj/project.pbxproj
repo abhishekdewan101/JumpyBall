@@ -15,6 +15,10 @@
 		4D1758CF1A9FC07500A35D75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1758CE1A9FC07500A35D75 /* Images.xcassets */; };
 		4D1758D21A9FC07500A35D75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1758D01A9FC07500A35D75 /* LaunchScreen.xib */; };
 		4D1758DE1A9FC07500A35D75 /* JumpyBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1758DD1A9FC07500A35D75 /* JumpyBallTests.swift */; };
+		4D1758E81A9FC2FA00A35D75 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1758E71A9FC2FA00A35D75 /* UIColorExtension.swift */; };
+		4D1758EA1A9FC45400A35D75 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1758E91A9FC45400A35D75 /* PlayScene.swift */; };
+		4D1758EC1A9FCE0300A35D75 /* BlockStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1758EB1A9FCE0300A35D75 /* BlockStatus.swift */; };
+		4D1758EE1A9FDE8100A35D75 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1758ED1A9FDE8100A35D75 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		4D1758D71A9FC07500A35D75 /* JumpyBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpyBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1758DC1A9FC07500A35D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D1758DD1A9FC07500A35D75 /* JumpyBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpyBallTests.swift; sourceTree = "<group>"; };
+		4D1758E71A9FC2FA00A35D75 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4D1758E91A9FC45400A35D75 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		4D1758EB1A9FCE0300A35D75 /* BlockStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockStatus.swift; sourceTree = "<group>"; };
+		4D1758ED1A9FDE8100A35D75 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +92,14 @@
 				4D1758C31A9FC07500A35D75 /* AppDelegate.swift */,
 				4D1758C51A9FC07500A35D75 /* GameScene.sks */,
 				4D1758C71A9FC07500A35D75 /* GameScene.swift */,
+				4D1758E91A9FC45400A35D75 /* PlayScene.swift */,
 				4D1758C91A9FC07500A35D75 /* GameViewController.swift */,
 				4D1758CB1A9FC07500A35D75 /* Main.storyboard */,
 				4D1758CE1A9FC07500A35D75 /* Images.xcassets */,
 				4D1758D01A9FC07500A35D75 /* LaunchScreen.xib */,
 				4D1758C11A9FC07500A35D75 /* Supporting Files */,
+				4D1758E71A9FC2FA00A35D75 /* UIColorExtension.swift */,
+				4D1758EB1A9FCE0300A35D75 /* BlockStatus.swift */,
 			);
 			path = JumpyBall;
 			sourceTree = "<group>";
@@ -96,6 +107,7 @@
 		4D1758C11A9FC07500A35D75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D1758ED1A9FDE8100A35D75 /* sound.mp3 */,
 				4D1758C21A9FC07500A35D75 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1758EE1A9FDE8100A35D75 /* sound.mp3 in Resources */,
 				4D1758D21A9FC07500A35D75 /* LaunchScreen.xib in Resources */,
 				4D1758CF1A9FC07500A35D75 /* Images.xcassets in Resources */,
 				4D1758C61A9FC07500A35D75 /* GameScene.sks in Resources */,
@@ -220,8 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1758C81A9FC07500A35D75 /* GameScene.swift in Sources */,
+				4D1758EC1A9FCE0300A35D75 /* BlockStatus.swift in Sources */,
+				4D1758EA1A9FC45400A35D75 /* PlayScene.swift in Sources */,
 				4D1758CA1A9FC07500A35D75 /* GameViewController.swift in Sources */,
 				4D1758C41A9FC07500A35D75 /* AppDelegate.swift in Sources */,
+				4D1758E81A9FC2FA00A35D75 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
